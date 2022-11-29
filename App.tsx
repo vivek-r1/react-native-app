@@ -4,6 +4,7 @@ import { ActionSheetProvider } from "@expo/react-native-action-sheet";
 import Tracker from "./src/components/Tracker";
 import ActionSheet from "./src/components/ActionSheet";
 import StyledText from "react-native-styled-text";
+import BottomSheetMenu from "./src/components/BottomSheet";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
         <StyledText style={styles.body}>
           How long has the company been in business?
         </StyledText>
-        <ActionSheet />
+        <BottomSheetMenu />
       </View>
     </ActionSheetProvider>
   );
